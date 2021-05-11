@@ -69,6 +69,7 @@
                 height: 645px;
                 width: 274.6px;
                 display: inline-block;
+                vertical-align: top;
             }
 
                 .container .body .bottom .trio .h2 {
@@ -78,6 +79,17 @@
                     padding: 10px;
                     font-weight: bolder;
                     color: white;
+                }
+
+                .container .body .bottom .trio .triopics {
+                    max-width: 274.5px;
+                    max-height: 151.4482655px;
+                }
+
+                .container .body .bottom .trio .textos {
+                    width: 254.5px;
+                    height: 152px;
+                    padding: 10px;
                 }
 
             .container .body .bottom .division {
