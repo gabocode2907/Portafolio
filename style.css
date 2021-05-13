@@ -81,6 +81,26 @@
                     color: white;
                 }
 
+                .container .body .bottom .trio .pics {
+                    margin-top: 10px;
+                }
+                    .container .body .bottom .trio .pics .smallpics {
+                        height: 40px;
+                        width: 40px;
+                        padding: 5px;
+                    }
+
+                .container .body .bottom .trio .boton {
+                    color: white;
+                    font-weight: bolder;
+                    height: 40px;
+                    width: auto;
+                    background-color: green;
+                    border-radius: 5px;
+                    margin-top: 20px;
+                    margin-left: 90px;                   
+                }
+
                 .container .body .bottom .trio .triopics {
                     max-width: 274.5px;
                     max-height: 151.4482655px;
@@ -89,7 +109,8 @@
                 .container .body .bottom .trio .textos {
                     width: 254.5px;
                     height: 152px;
-                    padding: 10px;
+                    text-align: justify;
+                    padding: 12px;
                 }
 
             .container .body .bottom .division {
@@ -109,6 +130,25 @@
         width: 900px;
         height: 70px;
     }
+
+        .container .footer .contact {
+            height: 35px;
+        }
+
+        .container .footer .social {
+            height: 35px;
+            align-items: center;
+        }
+
+        .container .footer .social .sociallinks {
+            vertical-align: top;
+        }
+
+        .container .footer .social .socialpic {
+            width: 20px;
+            height: 20px;
+        }
+
         .container .header .title{
             width: 400px;
             height: 50px;
