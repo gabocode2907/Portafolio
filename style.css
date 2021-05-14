@@ -1,9 +1,11 @@
-* {
+/* * {
     outline: 1px dotted red;
+} */
+html {
+    background-color: grey;
 }
 
 .container {
-    background-color: white;
     width: 900px;
     height: 1000px;
     margin: 0px auto;
@@ -65,7 +67,7 @@
         }
 
             .container .body .bottom .trio {
-                background-color: white;
+                background-image: linear-gradient(white,rgb(219,204,218));
                 height: 645px;
                 width: 274.6px;
                 display: inline-block;
@@ -130,14 +132,31 @@
         width: 900px;
         height: 70px;
     }
-
-        .container .footer .contact {
+        .container .footer .social {
             height: 35px;
         }
 
-        .container .footer .social {
+        .container .footer .social .lowfooter {
             height: 35px;
-            align-items: center;
+            width: 271px;
+            display: inline-block;
+        }
+        .container .footer .social .lowfooter2 {
+            height: 35px;
+            width: 350px;
+            display: inline-block;
+            vertical-align: top;
+            color: black;
+            text-decoration: none;
+        }
+
+        .container .footer .social .lowfooter3 {
+            height: 35px;
+            width: 285px;
+            vertical-align: top;
+            padding-left: 65px;
+            padding-top: 5px;
+
         }
 
         .container .footer .social .sociallinks {
@@ -147,6 +166,7 @@
         .container .footer .social .socialpic {
             width: 20px;
             height: 20px;
+            margin-left: 5px;
         }
 
         .container .header .title{
